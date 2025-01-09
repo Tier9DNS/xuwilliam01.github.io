@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.william.mobilegame",
+                 "sha256_cert_fingerprints": ["C3:95:7E:DB:16:42:C9:EA:14:9B:81:4F:66:3A:B9:CF:6D:91:E3:C1:49:B8:B3:36:1F:4A:AB:CC:F5:3B:C3:21"] }
+}]
