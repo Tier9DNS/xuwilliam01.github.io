@@ -6,11 +6,12 @@
     <title>Auto Battles Online - Tier 9 Game Studios Ltd.</title>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const appLink = "intent://abo#Intent;scheme=https;package=com.william.mobilegame;end";
+            const package_name = "com.william.mobilegame";
+            const appLink = `market://details?id=${package_name}`;
             window.location.href = appLink;
             // Fallback
             setTimeout(function() {
-                window.location.href = "https://play.google.com/store/apps/details?id=com.william.mobilegame&hl=en";
+                window.location.href = `https://play.google.com/store/apps/details?id=${package_name}`;
             }, 2000);
         });
     </script>
