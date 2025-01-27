@@ -20,14 +20,15 @@
                     window.location.href = play_store_url;
                 }, 2000);
 
-            } else if (/iPad|iPhone|iPod/.test(userAgent)) {
-                // Fallback
-                setTimeout(function() {
-                    window.location.href = app_store_url;
-                }, 2000);
-            } else {
-                window.location.href = play_store_url;
             }
+            // else if (/iPad|iPhone|iPod/.test(userAgent)) {
+            //     // Fallback
+            //     setTimeout(function() {
+            //         window.location.href = app_store_url;
+            //     }, 2000);
+            // } else {
+            //     window.location.href = play_store_url;
+            // }
         });
     </script>
 </head>
